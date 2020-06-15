@@ -1,0 +1,131 @@
+
+
+.clear:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+nav .menu {
+    margin-top: 0px;
+    text-align: center;
+}
+
+nav .menu ul {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+nav .menu ul li {
+    float: left;
+
+   /* width: 154px;
+    height: 160px;*/
+   /* width: 124px;
+    height: 140px;*/
+    width: 140px;
+    height: 85px;
+    border-left: 1px solid;
+    border-color: #fbc376;
+    /*background-color: rgba(251, 240, 227, 1);*/
+
+    -moz-transition: background-color 0.2s linear 0s;
+    -ms-transition: background-color 0.2s linear 0s;
+    -o-transition: background-color 0.2s linear 0s;
+    -webkit-transition: background-color 0.2s linear 0s;
+    transition: background-color 0.2s linear 0s;
+}
+
+nav .menu ul li:last-child {
+    border-right: 1px solid #fbc376;
+    border-radius: 0 20px 20px 0;
+}
+
+nav .menu ul li:first-child {
+    border-radius: 20px 0 0 20px;
+}
+
+nav .menu ul li a {
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+nav .menu a i {
+    display: table-cell;
+    vertical-align: middle;
+    color: #F2784B;
+    font-size: 23px;
+    -moz-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+
+nav .menu a i:before {
+    border: 2px solid;
+    border-color: #F2784B;
+    border-radius: 500px;
+    width: 41px;
+    display: inline-block;
+    height: 41px;
+    line-height: 37px;
+    -moz-transition: color 0.2s linear 0s, font-size 0.2s linear 0s, border-color 0.2s linear 0.2s, height 0.2s linear 0s, width 0.2s linear 0s, line-height 0.2s linear 0s;
+    -ms-transition: color 0.2s linear 0s, font-size 0.2s linear 0s, border-color 0.2s linear 0.2s, height 0.2s linear 0s, width 0.2s linear 0s, line-height 0.2s linear 0s;
+    -o-transition: color 0.2s linear 0s, font-size 0.2s linear 0s, border-color 0.2s linear 0.2s, height 0.2s linear 0s, width 0.2s linear 0s, line-height 0.2s linear 0s;
+    -webkit-transition: color 0.2s linear 0s, font-size 0.2s linear 0s, border-color 0.2s linear 0.2s, height 0.2s linear 0s, width 0.2s linear 0s, line-height 0.2s linear 0s;
+    transition: color 0.2s linear 0s, font-size 0.2s linear 0s, border-color 0.2s linear 0.2s, height 0.2s linear 0s, width 0.2s linear 0s, line-height 0.2s linear 0s;
+}
+
+nav .menu a .link-text {
+    position: absolute;
+    bottom: 1px;
+    right: 19px;
+    color: #f2784b;
+    font-size: 14px;
+    text-transform: uppercase;
+    -moz-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+
+nav .menu ul li:hover {
+    background-color: #f2784b;
+    border-color: #f2784b;
+}
+
+nav .menu ul li:hover + li {
+    border-color: #f2784b;
+}
+
+nav .menu ul li:hover + li:last-child {
+    border-right-color: #fbc376;
+}
+
+nav .menu ul li:hover .link-text {
+    opacity: 0;
+}
+
+nav .menu ul li:hover i {
+    color: #565a60;
+    font-size: 43px;
+}
+
+nav .menu ul li:hover i:before {
+    border-color: transparent;
+    border-radius: 500px;
+    width: 66px;
+    height: 66px;
+    line-height: 60px;
+    -moz-transition: color 0.2s linear 0s, font-size 0.2s linear 0s, border-color 0s linear 0.2s, height 0.2s linear 0s, width 0.2s linear 0s, line-height 0.2s linear 0s;
+    -ms-transition: color 0.2s linear 0s, font-size 0.2s linear 0s, border-color 0s linear 0.2s, height 0.2s linear 0s, width 0.2s linear 0s, line-height 0.2s linear 0s;
+    -o-transition: color 0.2s linear 0s, font-size 0.2s linear 0s, border-color 0s linear 0.2s, height 0.2s linear 0s, width 0.2s linear 0s, line-height 0.2s linear 0s;
+    -webkit-transition: color 0.2s linear 0s, font-size 0.2s linear 0s, border-color 0s linear 0.2s, height 0.2s linear 0s, width 0.2s linear 0s, line-height 0.2s linear 0s;
+    transition: color 0.2s linear 0s, font-size 0.2s linear 0s, border-color 0.2s linear 0s, height 0.2s linear 0s, width 0.2s linear 0s, line-height 0.2s linear 0s;
+}
